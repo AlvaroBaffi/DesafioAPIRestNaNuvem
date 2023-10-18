@@ -8,10 +8,7 @@ classDiagram
         -conta: Account
         -rank: Rank
         -loja: Store
-        -amigos: Friend[]
-        +getPlayerInfo(): string
-        +updateRank(newRank: Rank): void        
-        +addFriend(friend: Friend): void
+        -amigos: Friend[]       
     }
 
     class Account {
