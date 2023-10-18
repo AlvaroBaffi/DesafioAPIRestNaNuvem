@@ -30,15 +30,10 @@ classDiagram
         -essencias_azuis: int
         -essencias_laranja: int
         -riot_points: int
-    }
-
-    class Friend {
-        -nick_invocador: string
-    }    
+    }      
 
     Player "1" *-- "1" Account : Possui
     Player "1" *-- "1" Rank : Possui
-    Player "1" *-- "1" Store : Possui
-    Player "1" *-- "N" Friend : Possui
+    Player "1" *-- "1" Store : Possui   
 
 ```
