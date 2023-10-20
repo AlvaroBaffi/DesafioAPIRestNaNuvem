@@ -7,8 +7,7 @@ classDiagram
         -nome: string
         -conta: Account
         -rank: Rank
-        -loja: Store
-        -amigos: Friend[]       
+        -loja: Store            
     }
 
     class Account {
